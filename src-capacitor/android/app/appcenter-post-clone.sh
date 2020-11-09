@@ -24,5 +24,6 @@ npm i
 npx quasar build
 
 # copy the web assets to the native projects and updates the native plugins and dependencies based in package.json
-# cd src-capacitor
-# npx cap copy
+cd src-capacitor
+npx cap update
+cd ..
