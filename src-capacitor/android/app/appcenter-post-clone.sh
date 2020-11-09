@@ -21,7 +21,7 @@ cd ../../..
 npm i
 
 # run optimized production build
-npx quasar build -m capacitor -T android
+npx quasar build
 
 # copy the web assets to the native projects and updates the native plugins and dependencies based in package.json
 # cd src-capacitor
