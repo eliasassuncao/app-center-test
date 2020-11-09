@@ -19,13 +19,16 @@ cd ../../..
 
 # install dependencies
 npm i
+cd src-capacitor
+npm i
+cd ..
 
 # run optimized production build
-npx quasar build -m cordova
+npx quasar build -m cordova -T android
 
 # copy the web assets to the native projects and updates the native plugins and dependencies based in package.json
-cd src-capacitor
-mkdir www
-npm i
-npx cap update
-cd ..
+# cd src-capacitor
+# mkdir www
+# npm i
+# npx cap update
+# cd ..
